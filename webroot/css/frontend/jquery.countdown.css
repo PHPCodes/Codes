@@ -1,0 +1,81 @@
+/* jQuery Countdown styles 1.6.3. */
+.hasCountdown {
+	
+	/* background-color: #eee; */
+	float:left;
+	width: 100%;
+	margin-top:8px;
+}
+.countdown_rtl {
+	direction: rtl;
+}
+.countdown_holding span {
+	color: #888;
+}
+.countdown_row {
+	clear: both;
+	width: 100%;
+	padding: 5px 2px;
+	text-align: center;
+}
+
+.countdown_show1 .countdown_section {
+	width: 98%;
+	
+}
+.countdown_show2 .countdown_section {
+	width: 47.5%;
+}
+.countdown_show3 .countdown_section {
+	width: 31.5%;
+}
+.countdown_show4 .countdown_section {
+	width: 14%;
+}
+.countdown_show5 .countdown_section {
+	width: 17.8%;
+}
+.countdown_show6 .countdown_section {
+	width: 15.5%;
+}
+.countdown_show7 .countdown_section {
+	width: 13.5%;
+}
+
+ 
+.countdown_section {
+	display:inline-block;
+	font-weight: bold !improtant;
+	float: left;
+	font-size: 16px !important;
+	text-align: center;
+	padding:7px 0 0;
+	/*border: 2px solid #47A447; */
+/*	border-radius:150px; */
+/*	margin-left:2px;*/
+
+	
+
+	color:#444;
+}
+.countdown_amount {
+	font-weight: bold !improtant;
+ float:left;
+	font-size: 16px !important;
+}
+.countdown_descr {
+	display: inline-block;
+	width: 100%;
+}
+
+/* work by sandeep soni on 08.10.14 */
+.block_count .hasCountdown .countdown_row  .countdown_section .countdown_amount{font-size:12px!important;font-weight:normal;}
+.block_count .hasCountdown .countdown_row  .countdown_section >div{font-size:12px;width:auto;font-weight:normal;margin:0;float:left;}
+.block_count .hasCountdown .countdown_row  .countdown_section:first-child>div{margin-left:5px;margin-right:5px;}
+.block_count .hasCountdown .countdown_row  .countdown_section:nth-child(2)>div{margin-left:1px;margin-right:5px;text-transform:capitalize;}
+.block_count .hasCountdown .countdown_row  .countdown_section:nth-child(3)>div{margin-left:2px;margin-right:5px;text-transform:capitalize;}
+.block_count .hasCountdown .countdown_row  .countdown_section:nth-child(4)>div{margin-left:2px;text-transform:capitalize;}
+.block_count{width:99.9%;float:left;padding: 0px 7px 0px 7px;}
+.block_count .hasCountdown {margin-top:0;}
+.block_count .hasCountdown .countdown_row{padding-top:0;}
+.block_count .hasCountdown .countdown_row  .countdown_section{width:auto;}
